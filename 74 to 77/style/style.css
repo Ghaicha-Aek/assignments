@@ -1,0 +1,147 @@
+
+.one
+{
+    width: 50px;
+    height: 50px;
+    margin: 100px auto;
+    position: relative;
+    border: 20px solid #FC48AA;
+    border-radius: 50%;
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-top-color: transparent;
+    animation-timing-function: linear;
+
+}
+.one::after
+{
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 20px solid #2490FF;
+    position: absolute;
+    top: -44px;
+    left: -44px;
+    border-bottom-color: transparent;
+}
+
+.one::before
+{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #FCB400;
+    position: absolute;
+    top: -96px;
+    left: -91px;
+    border-right-color: transparent;
+}
+.one:hover
+{
+    animation-play-state: paused;
+}
+
+@keyframes loading {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+
+    
+    
+}
+
+
+
+.rotate
+{
+    width: 50px;
+    height: 50px;
+    margin: 100px auto;
+    position: relative;
+    border: 5px solid #FC48AA;
+    border-radius: 50%;
+
+    border-bottom-color: transparent;
+    animation:circle 1s linear infinite paused;
+
+}
+.rotate::after
+{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 5px solid #2490FF;
+    position: absolute;
+    top: -18px;
+    left: -19px;
+    border-bottom-color: transparent;
+    animation:circle 1.5s linear infinite paused;
+}
+
+.rotate::before
+{
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #FCB400;
+    position: absolute;
+    top: -32px;
+    left: -32px;
+    border-bottom-color: transparent;
+    animation:circle 2s linear .5s infinite paused;
+}
+.rotate:hover,.rotate:hover::before,.rotate:hover::after
+{
+    animation-play-state: running;
+}
+@keyframes circle {
+
+    0%
+    {
+        transform: rotate(0deg);
+    }
+
+    100%
+    {
+        transform: rotate(360deg);
+    }
+    
+}
+
+span
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 100px auto;
+    border: 5px solid black;
+    border-left-color: transparent;
+    animation: spin 2s ease-in infinite reverse;
+
+}
+
+@keyframes spin {
+    
+    to 
+    {
+        transform: rotate(360deg);
+    }
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  

@@ -1,0 +1,10 @@
+div.main.red
+{
+    color: red;
+}
+.parent>.child:last-child
+{
+    color: red;
+}
+
+

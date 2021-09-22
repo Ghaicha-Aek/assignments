@@ -1,0 +1,35 @@
+
+.parent .child .title 
+{
+ color: red;
+}
+.parent .title
+{
+    color:blue;
+}
+.parent p,.title
+{
+    color: green;
+}
+
+.shape-1,.shape-2,.shape-3
+{
+    
+    max-width: 400px;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+  
+
+}
+
+.shape-2,.shape-3
+{
+
+    margin-top: 10px;
+}
+
+.shape-3
+{
+    height: 50px;
+}

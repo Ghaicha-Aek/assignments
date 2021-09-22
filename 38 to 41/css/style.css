@@ -1,0 +1,86 @@
+span
+{
+    display: block;
+    background-color: #eee;
+    text-align: center;
+    font-size: 45px;
+ 
+}
+a
+{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    color: blue;
+}
+a:hover
+{
+    color: red;
+}
+h1
+{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-size: 45px;
+}
+hr
+{
+    border: 5px solid blueviolet;
+    margin-top: 250px;
+}
+
+div
+{
+   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    display: inline-block;
+    margin: 50px;
+    position: relative;
+    box-shadow: -10px -10px 0 0 #E91E63 , 10px 10px 0 0 #2196f3;
+    counter-increment: members-counter;
+    border: 3px solid black;
+}
+div::after
+{
+    content: counter(members-counter);
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 41px;
+    top: -8px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+div::before
+{
+    content: "element";
+    position: absolute;
+    bottom: 45px;
+    left: 25px;
+}
+
+.two
+{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     display: block;
+    height: 100px;
+    width: 100px;
+    background-color: #B0B0B0;
+    box-shadow: none;
+    border:none;
+    border-radius: none;
+ 
+    margin: 100px auto;
+
+}
+
+
+
+

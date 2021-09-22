@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+}
+div
+{
+    text-align: center;
+    padding: 20px;
+    border: 10px solid green;
+}
+
+p{
+    padding: inherit;
+    border: inherit;
+}
+
+.first
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.two
+{
+    font-family: 'Cairo', sans-serif;
+
+}
+
+
+.three
+{
+    font-family: 'Jomhuria', cursive;
+}

@@ -1,0 +1,51 @@
+
+.upper
+{
+    text-shadow: 1px 0px #f44336, 2px 0px #2196f3;
+}
+.one
+{
+    text-transform: uppercase;
+}
+
+.two
+{
+    text-transform: capitalize;
+}
+
+.three
+{
+    text-transform: lowercase;
+}
+.one-1,.one-2,.one-3
+{
+    width: 400px;
+    padding: 10px;
+    background-color: #EEEEEE;
+    margin-top: 10px;
+}
+
+.one-3
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.one-4
+{
+  width: 400px;
+    background-color: #009688;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  border-bottom: 35px solid #00514A;
+  text-decoration: none;
+    color: #FFFFFF;
+    line-height: 200px;
+    display: block;
+    font-size: 55px;
+}
+
+
+
+

@@ -1,0 +1,209 @@
+
+* {
+    box-sizing: border-box !important;
+    margin: 0px;
+    padding: 0;
+  }
+.grid 
+{
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    margin: 20px auto;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    
+}
+
+.grid div
+{
+ background-color: #607d8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  letter-spacing: 3px;
+}
+
+.layout
+{
+    display: grid;
+    grid-template-areas: "header header header  header header header header header" " section section section section section section aside aside" " footer footer footer footer footer footer footer footer ";
+    grid-template-rows: 40px 1fr 40px;
+    height: 600px;
+}
+
+header
+{
+    background-color: blue;
+    grid-area: header;
+}
+
+section
+{
+    background-color: brown;
+    grid-area: section;
+}
+aside
+{
+    background-color: cadetblue;
+    grid-area: aside;
+}
+footer
+{
+    background-color: chartreuse;
+    grid-area: footer;
+}
+
+.grid-1
+{
+    display: grid;
+    grid-template-columns: auto repeat(2,1fr) auto;
+       background-color: #eee;
+    grid-template-rows: 1fr auto;
+    height: 400px;
+    margin: 50px auto;
+    gap: 30px;
+    color: white;
+    padding: 20px;
+    width: 800px;
+}
+
+.grid-1 div
+{
+    background-color: #403F3F;
+}
+
+.grid-3 {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(6,1fr);
+    margin: 50px auto;
+    display: grid;
+    gap: 15px;
+  }
+  .one,.eight
+  {
+      grid-column: span 8;
+  }
+  .two
+  {
+      grid-column: span 6;
+  }
+
+  .three
+  {
+      grid-column: span 2;
+  }
+  .four,.six,.seven
+  {
+      grid-column: span 2;
+  }
+  .five
+  {
+      grid-column: span 6;
+      grid-row:  span 3;
+  }
+
+
+
+  .grid-3 div
+  {
+      background-color: cornflowerblue;
+  }
+
+  .grid-4 {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    margin: 50px auto;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    gap:25px;
+    align-content: space-between;
+
+  }
+
+  .grid-4 div
+  {
+      background-color: crimson;
+  }
+
+  .grid-5
+  {
+      display: grid;
+      padding: 20px;
+      height: 1200px;
+      width: 1400px;
+      grid-template-rows: repeat(4,auto);
+      grid-template-columns: repeat(4,auto);
+      margin: 50px auto;
+      gap: 20px;
+      background-color: #eee;
+      
+  }
+  .osama
+  {
+      grid-column: span 2;
+      background-color: white;
+
+  }
+  .ahmad
+  {
+      grid-column: span 1;
+      background-color: white;
+
+    }
+
+    .shady
+    {
+        grid-column: span 1;
+        grid-row: span 3;
+        background-color: black;
+        color:white;
+    }
+
+    .mohammed
+    {
+        grid-row: span 2;
+        grid-column: span 1;
+        background-color: white;
+
+    }
+
+    .mahmoud
+    {
+        grid-column:span 2;
+        background-color: black;
+        color: white;
+    }
+    .ezz
+    {
+        grid-column: span 2;
+    }
+    .ibrahim
+    {
+        background-color: black;
+        color: white;
+    }
+
+    .grid-5 div
+    {
+        border-bottom: 2px solid red;
+        padding: 24px;
+    }
+
+    
+
+

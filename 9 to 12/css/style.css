@@ -1,0 +1,67 @@
+.shape1,.shape2,.shape3
+{
+    display: inline-block;
+    margin: 10%;
+  
+}
+
+.shape1
+{
+    border: 5px solid  red;
+    outline: 5px solid black;
+}
+
+.shape2
+{
+    
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    
+    outline: 5px solid black;
+}
+
+.shape3{
+
+    outline: 5px solid black;
+
+    border-top: 5px dashed    red;
+    border-bottom: 5px dashed  blue;
+
+    border-left: 5px dashed  yellow;
+    border-right: 5px dashed  green;
+
+}
+
+.shape1-1,.shape2-1,.shape3-1
+{
+    width: 400px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    
+}
+
+span
+{
+    Border-left: 6px solid green;
+    margin: 3px;
+    display: inline;
+   
+    height: 40px;
+}
+
+
+.shape2-1 {
+    visibility: hidden;
+}
+
+.shape1::before
+{
+    
+}
+span{
+    
+   
+}

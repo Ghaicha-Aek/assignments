@@ -1,0 +1,92 @@
+.parent
+{
+    width:800px;
+    background-color: #EEEEEE;
+
+    
+    overflow:hidden;
+}
+.clear
+{
+    clear: both;
+}
+
+.child-1
+
+{
+    width: calc((100% - 30px));
+    margin-top: 15px;
+    text-align: center;
+    background-color: #DDDDDD;
+    margin-left: 15px;
+  
+}
+
+.child-2
+{
+    
+    float: left;
+    
+    background-color: #DDDDDD;
+   
+    margin-top: 15px;
+    width: calc((100% - 60px)/3);
+    margin-left: 15px;
+    text-align: center;
+    
+  
+}
+
+
+
+.child-3
+{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    float: left;
+  
+  width: calc((100% - 45px)/2);
+  background-color: #DDDDDD;
+
+  margin-left: 15px;
+}
+
+
+.child-4
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: calc((100% - 75px)/4);
+    float: left;
+    background-color: #DDDDDD;
+    margin-left: 15px;
+}
+
+.test-2 {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    color: black;
+  }
+
+  .normal
+  {
+      background-color: #B3B3B3;
+      
+  }
+
+  .one
+  {
+    margin-top: 15px;
+    background-color: #B3B3B3;
+  }
+  .two
+  {
+
+    margin-top: 15px;
+    background-color: #B3B3B3;
+  }

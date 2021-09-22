@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+.one
+{
+    width: 150px;
+    background-color: #FF5722;
+    color: white;
+    margin: 50px auto;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+
+}
+
+.one::after,.one::before
+{
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+
+}
+
+.one::before
+{
+transform: skew(10deg,10deg);
+    background: #FF5722;
+    z-index: -1;
+}
+
+.one::after
+{
+    transform: skew(
+-10deg
+, 
+-10deg
+);
+    background: #FF5722;
+    z-index: -2;
+}
+
+.two
+{
+    width: 150px;
+   margin: 50px auto;
+   background-color: #009688;
+   padding: 20px;
+   text-align: center;
+   color: white;
+   position: relative;
+
+
+}
+
+.two::after
+{
+    content: "";
+    width: 21%;
+    height: 100%;
+    position: absolute;
+    background-color: #009688;
+    top: 0%;
+    left: -47%;
+    transform: skew(
+22deg
+);
+}
+
+.two::before
+{
+    content: "";
+    width: 20%;
+    height: 100%;
+    background-color: #009688;
+    position: absolute;
+    top: 0;
+     right: 135px;
+    transform: skew(22deg);
+
+}
+
+.class
+{
+    width: 150px;
+    margin: 100px auto;
+    background: aqua;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    /* font-size: 35px; */
+    transform: matrix(3, 0.2679, 0, 3, 20, 100);
+}
+
+
+.three
+{
+    width: 200px;
+    height: 200px;
+    background: gray;
+    margin: 50vh auto;
+    position: relative;
+}
+
+.three::before{
+    content: "";
+    width: 72.3%;
+    height: 72.3%;
+    position: absolute;
+    background: black;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(
+45deg
+);
+top: -71px;
+box-sizing: border-box;
+left: 28px;
+}
+
+.three::after
+{
+    content: "";
+    position: absolute;
+}
+
+.four
+{
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.5s;
+    margin: 200px auto;
+
+}
+.four::before
+{
+    content: "Front";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #FA3664;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    font-size: 30px;
+
+    color: white;
+   
+}
+
+.four::after
+{
+    content: "Back";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #1692FC;
+    transform: rotateX(-180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    font-size: 30px;
+
+    color: white;
+}
+
+.four:hover{
+    transform: rotateX(-180deg);
+}
+

@@ -1,0 +1,146 @@
+div
+{
+    width: 500px;
+    padding: 20px;
+    color: white;
+    
+    margin: 10px  auto;
+}
+.assign-1-shape-1
+{
+    background-color:		 #8A2BE2;
+
+}
+
+.assign-1-shape-2
+{
+    background-color: hsl(271, 75%, 76%);
+}
+
+.assign-1-shape-3
+{
+    background-color: rgba(138, 43, 226,0.1);
+}
+
+.assign-2-shape-1,.assign-2-shape-2,.assign-2-shape-3,.assign-2-shape-4
+{
+    height: 400px;
+    width: 400px;
+    background-color: teal;
+    background-image: url("https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png");
+   
+}
+
+.assign-2-shape-1
+{
+    
+     /*background-color: tomato;*/
+    
+     background-repeat: no-repeat;
+     
+}
+
+.assign-2-shape-2
+{
+    
+   
+    background-repeat: repeat-y;
+    
+    
+}
+
+.assign-2-shape-3
+{
+    
+  
+    background-repeat: repeat-x;
+    
+    
+}
+
+.assign-2-shape-4
+{
+    
+    
+    background-repeat: repeat;
+   
+    
+}
+
+
+.assign-3-shape-1,.assign-3-shape-2,.assign-3-shape-3,.assign-3-shape-4
+{
+    height: 400px;
+    width: 400px;
+    background-color: teal;
+    background-image: url("https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png");
+   
+}
+
+.assign-3-shape-1
+{
+    background-repeat: no-repeat;
+}
+
+.assign-3-shape-2
+{
+    background-repeat: repeat-y;
+    background-position-x: right;
+
+}
+
+.assign-3-shape-3
+{
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+}
+
+.assign-4-shape-1,.assign-4-shape-2,.assign-4-shape-3,.assign-4-shape-4
+{
+    height: 400px;
+    width: 400px;
+    background-color: teal;
+    background-image: url("https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png");
+   
+}
+
+.assign-4-shape-1
+{
+    background-repeat: no-repeat;
+    
+    background-size: 80%;
+}
+
+.assign-4-shape-2
+{
+    background-repeat: repeat-y;
+    
+    background-size: 80%;
+    background-position-x: right;
+}
+
+.assign-4-shape-3
+
+{
+     background-repeat: repeat-x;
+
+    background-position-y: bottom ;
+
+}
+
+
+
+.assign-4-shape-4
+{
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y:bottom;
+    background-size: 50%;
+    
+
+}
+
+
+
+
+
